@@ -7,8 +7,8 @@
 #parametros: 
 # ruta al escenario
 # ruta a resultados
-# $ruta_escenario = "C:\Globe\12_Local\Vueling\Fase_2\VSTS_Agent\_work\2\s\CI\Vueling\scenarios"
-# $ruta_resultados = "C:\Globe\12_Local\Vueling\Fase_2\VSTS_Agent\_work\2\s\CI\Vueling\results"
+$ruta_escenario = "C:\Globe\12_Local\Vueling\Fase_2\VSTS_Agent\_work\2\s\CI\Vueling\scenarios"
+$ruta_resultados = "C:\Globe\12_Local\Vueling\Fase_2\VSTS_Agent\_work\2\s\CI\Vueling\results"
 
 
 param([string]$ruta_escenario, [string]$ruta_resultados)
@@ -24,5 +24,5 @@ $proceso2 = Start-Process -FilePath 'C:\Program Files (x86)\HP\LoadRunner\bin\An
 $proceso2.WaitForExit()
 
 & Add-Type -A System.IO.Compression.FileSystem
-[IO.Compression.ZipFile]::CreateFromDirectory('$ruta_resultados\result', '$ruta_resultados\result.zip')
-[IO.Compression.ZipFile]::CreateFromDirectory('C:\Globe\12_Local\Vueling\Fase_2\Performance\results\result\HTML_report', 'C:\Globe\12_Local\Vueling\Fase_2\Performance\html_report\html_report.zip')
+[IO.Compression.ZipFile]::CreateFromDirectory($ruta_resultados'\result', $ruta_resultados'\result.zip')
+[IO.Compression.ZipFile]::CreateFromDirectory($ruta_resultados'\result\HTML_report', $ruta_resultados'\html_report\html_report.zip')

@@ -12,12 +12,13 @@
 #$ruta_zips = "C:\Globe\12_Local\Vueling\Fase_2\Performance\zips"
 
 
-param([string]$ruta_escenario, [string]$ruta_resultados, [string]$ruta_zips)
+param([string]$ruta_escenario, [string]$ruta_resultados, [string]$ruta_zips, [string]$ruta_raiz)
 Write-Host "Ruta al escenario: $ruta_escenario"
 Write-Host "Ruta a resultados: $ruta_resultados"
 Write-Host "Ruta a zips: $ruta_zips"
+Write-Host "Ruta raiz: $ruta_raiz"
 
-$Location = "$build.sourcesdirectory\CI\Vueling"
+$Location = "$ruta_raiz"
 New-Item -Path $Location -Name "zips" -ItemType "directory"
 
 $proceso = Start-Process -FilePath 'C:\Program Files (x86)\HP\LoadRunner\bin\wlrun.exe' -ArgumentList "-TestPath $ruta_escenario\Scenario.lrs -Run" -PassThru

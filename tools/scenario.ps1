@@ -17,6 +17,9 @@ Write-Host "Ruta al escenario: $ruta_escenario"
 Write-Host "Ruta a resultados: $ruta_resultados"
 Write-Host "Ruta a zips: $ruta_zips"
 
+$Location = "$build.sourcesdirectory\CI\Vueling"
+New-Item -Path $Location -Name "zips" -ItemType "directory"
+
 $proceso = Start-Process -FilePath 'C:\Program Files (x86)\HP\LoadRunner\bin\wlrun.exe' -ArgumentList "-TestPath $ruta_escenario\Scenario.lrs -Run" -PassThru
 $proceso.WaitForExit()
 

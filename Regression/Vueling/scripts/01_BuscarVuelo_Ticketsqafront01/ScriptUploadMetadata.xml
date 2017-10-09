@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>01_BuscarVuelo_Ticketsqafront01</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="01_BuscarVuelo_Ticketsqafront01.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="01_BuscarVuelo_Ticketsqafront01.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="FlightData.dat" Filter="2" />
+    <FileEntry Name="p_AdultNumber.dat" Filter="2" />
+    <FileEntry Name="p_Fare.dat" Filter="2" />
+    <FileEntry Name="p_MarketStructure.dat" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="p_URLMain.dat" Filter="2" />
+    <FileEntry Name="combined_01_BuscarVuelo_Ticketsqafront01.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="01_BuscarVuelo_Ticketsqafront01.c.pickle" Filter="1" />
+    <FileEntry Name="01_BuscarVuelo_Ticketsqafront01.ci" Filter="1" />
+    <FileEntry Name="01_BuscarVuelo_Ticketsqafront01.prm.bak" Filter="1" />
+    <FileEntry Name="01_BuscarVuelo_Ticketsqafront01.sdf" Filter="1" />
+    <FileEntry Name="1308812744.idx" Filter="1" />
+    <FileEntry Name="13249223344.idx" Filter="1" />
+    <FileEntry Name="14077879744.idx" Filter="1" />
+    <FileEntry Name="14805234944.idx" Filter="1" />
+    <FileEntry Name="17905276444.idx" Filter="1" />
+    <FileEntry Name="20671356344.idx" Filter="1" />
+    <FileEntry Name="23812758644.idx" Filter="1" />
+    <FileEntry Name="24619468844.idx" Filter="1" />
+    <FileEntry Name="25666999644.idx" Filter="1" />
+    <FileEntry Name="929399344.idx" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

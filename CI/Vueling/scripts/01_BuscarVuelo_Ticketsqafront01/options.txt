@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Globe\12_Local\Vueling\Fase_2\Estructura git\Performance\CI\Vueling\scripts\01_BuscarVuelo_Ticketsqafront01
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\globe\12_local\vueling\fase_2\estructura git\performance\ci\vueling\scripts\01_buscarvuelo_ticketsqafront01\\logfile.log
+c:\globe\12_local\vueling\fase_2\estructura git\performance\ci\vueling\scripts\01_buscarvuelo_ticketsqafront01\\combined_01_BuscarVuelo_Ticketsqafront01.c
+c:\globe\12_local\vueling\fase_2\estructura git\performance\ci\vueling\scripts\01_buscarvuelo_ticketsqafront01\\pre_cci.c

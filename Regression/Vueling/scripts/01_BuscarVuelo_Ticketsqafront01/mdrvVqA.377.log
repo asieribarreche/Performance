@@ -1,0 +1,28 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(108):     code":"TNG"},{"code":"BSL"},{"code":"MOW"},{"code":"VLC"},{"code":"TUN"}],"BCN":[{"code":"
+Action.c(108):     SXB"},{"code":"RHO"},{"code":"AAL"},{"code":"KGS"},{"code":"CFU"},{"code":"HER"},{"code":"
+Action.c(108):     TLL"},{"code":"MSQ"},{"code":"ZTH"},{"code":"OLB"},{"code":"BEG"},{"code":"BUD"},{"code":"
+Action.c(108):     CAG"},{"code":"EDI"},{"code":"GVA"},{"code":"KR
+Action.c(108): Warning: Closing connection [0] after waiting 2s for body for 302 response for URL "https://tickets.vueling.com/XmlSearch.aspx"  	[MsgId: MMSG-26000]
+Action.c(108): t=23898ms: Closed connection [0] to tickets.vueling.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(108): Notify: Saving Parameter "p_ViewState2 = ".	[MsgId: MMSG-13798]
+Action.c(108): Error -35049: No match found for the requested parameter "p_ViewState2". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 4]  	[MsgId: MERR-35049] [Time:2017-09-27 14:48:48]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(37): Notify: Parameter Substitution: parameter "p_OffsetVuelta" =  "5"	[MsgId: MMSG-13992]
+Action.c(37): Notify: Saving Parameter "p_DiaVuelta = 07".	[MsgId: MMSG-13798]
+Action.c(39): Notify: Transaction "01_99_BuscarVuelo_Ticketsqafront01" started.	[MsgId: MMSG-16999]
+Action.c(41): Notify: Transaction "01_01_CargarURL_Ticketsqafront01" started.	[MsgId: MMSG-16999]
+Action.c(43): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(43): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(46): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(46): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(56): web_url("{p_URLMain}") started  	[MsgId: MMSG-26355]
+Action.c(56): Notify: Parameter Substitution: parameter "p_URLMain" =  "https://www.vueling.com"	[MsgId: MMSG-13992]
+Action.c(56): t=31552ms: Request done "https://tickets.vueling.com/XmlSearch.aspx"  	[MsgId: MMSG-26000]
+Action.c(56): Error: C interpreter run time error: Action.c (56):  Error -- memory violation : Exception ACCESS_VIOLATION received.	[MsgId: MERR-19890]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

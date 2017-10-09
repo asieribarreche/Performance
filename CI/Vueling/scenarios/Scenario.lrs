@@ -14,22 +14,22 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=C:\Globe\12_Local\Vueling\Fase_2\Performance\scenarios\Scenario.lrs
+Path=C:\Globe\12_Local\Vueling\Fase_2\VSTS_Agent\_work\2\s\CI\Vueling\scenarios\Scenario.lrs
 Author=Globe
 Subject=Scenario
 Description=
 Hosts=1
 Scripts=1
 Groups=1
-Vusers=5
+Vusers=3
 Tranzactions=0
 Rendezvous=0
-Result_file=C:\WINDOWS\performance\results\result\result.lrr
+Result_file=c:\globe\12_local\vueling\fase_2\performance\results\result\result.lrr
 ResCleanName=result
 ResSymName=
 DEFAULT_NFS_LESS_MODE=1
 AutoSetResults=0
-AutoOverwriteResults=0
+AutoOverwriteResults=1
 BaseResultsName=result
 MaxVuserSeedNumberUsed=0
 PlannedNumOfVusers=10
@@ -193,7 +193,7 @@ SubType=Multi+QTWeb
 ScriptType=9
 Path=..\scripts\01_BuscarVuelo_Ticketsqafront01\01_BuscarVuelo_Ticketsqafront01.usr
 EmulatedLocation=None
-Config=[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nSearchForImages="1"\r\nAnalogMode="0"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_3="es-ES"\r\nBrowserAcceptLanguage_extra_arg_2="en-us"\r\nBrowserAcceptLanguage_extra_arg_1="None"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="es-ES"\r\nNavigatorBrowserLanguage="en-US"\r\nBrowserAcceptLanguage="es-ES"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="1"\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nTreeViewRequestBodyLimit="2047"\r\nScreenAvailHeight="728"\r\nRecorderWinCodePage="1252"\r\nProxyUseProxy="0"\r\nProxyNoLocal="1"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="1"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nSaveSnapshotResources=0\r\nProxyHTTPSPort="443"\r\nKeepAlive="Yes"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent="1"\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="es-ES"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=""\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="https://ldcvpn.zurich.com/PartnerAccess"\r\nWebSyncRetryIntervalMs="1000"\r\nScreenHeight="768"\r\nProxyUseProxyServer="0"\r\nClearCacheForSimulateNewUser="1"\r\nIPVersionPolicy="2"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"\r\nSupportCharset="UTF-8"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2017/07/06 06:30:57"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="Yes"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="1"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="600"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="600"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="No"\r\nAedUtf8Values="No"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="600"\r\nScreenWidth="1366"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nPrintNTLMLog="No"\r\nIntegratedAuthentication="No"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1366"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent="0"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="1"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="0"\r\nLogDetail="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic="uspdOy.965"\r\nAutomaticTransactionsPerFunc="0"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nSearchForImages="1"\r\nAnalogMode="0"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_3="es-ES"\r\nBrowserAcceptLanguage_extra_arg_2="en-us"\r\nBrowserAcceptLanguage_extra_arg_1="None"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="es-ES"\r\nNavigatorBrowserLanguage="en-US"\r\nBrowserAcceptLanguage="es-ES"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="1"\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nTreeViewRequestBodyLimit="2047"\r\nScreenAvailHeight="728"\r\nRecorderWinCodePage="1252"\r\nProxyUseProxy="0"\r\nProxyNoLocal="1"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="1"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nSaveSnapshotResources=0\r\nProxyHTTPSPort="443"\r\nKeepAlive="Yes"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent="1"\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="es-ES"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=""\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="https://ldcvpn.zurich.com/PartnerAccess"\r\nWebSyncRetryIntervalMs="1000"\r\nScreenHeight="768"\r\nProxyUseProxyServer="0"\r\nClearCacheForSimulateNewUser="1"\r\nIPVersionPolicy="2"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"\r\nSupportCharset="UTF-8"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2017/07/06 06:30:57"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="Yes"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="1"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="600"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="600"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="No"\r\nAedUtf8Values="No"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="600"\r\nScreenWidth="1366"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nPrintNTLMLog="No"\r\nIntegratedAuthentication="No"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1366"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent="0"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="1"\r\nMsgClassFull="0"\r\nAutoLog="1"\r\nMsgClassData="0"\r\nLogDetail="1"\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic=uspsok.333\r\nAutomaticTransactionsPerFunc="0"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions="RECORDED"\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60"\r\nRunLogicPaceConstTime="60"\r\nRunLogicPaceType="After"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -212,18 +212,6 @@ Trans=01_01_CargarURL_Ticketsqafront01
 {01_BuscarVuelo_Ticketsqafront01
 
 {10
-5=01_buscarvuelo_ticketsqafront01_1_1_1
-9=localhost
-SEED_NUM=0
-}
-
-{8
-5=01_buscarvuelo_ticketsqafront01_1_1_1
-9=localhost
-SEED_NUM=0
-}
-
-{7
 5=01_buscarvuelo_ticketsqafront01_1_1_1
 9=localhost
 SEED_NUM=0
@@ -308,7 +296,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="59db1face" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="59db46eee" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -344,7 +332,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                   <Count>1</Count>
                   <Interval>5</Interval>
                 </Batch>
-                <TotalVusersNumber>5</TotalVusersNumber>
+                <TotalVusersNumber>3</TotalVusersNumber>
               </RampUp>
               <Duration>
                 <StartCondition>

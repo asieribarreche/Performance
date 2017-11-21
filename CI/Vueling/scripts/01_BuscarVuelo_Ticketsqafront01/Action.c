@@ -1,12 +1,12 @@
 /*
-Parámetros del script
+ParÃ¡metros del script
 =====================
 
 Obtenidos a partir de hojas de datos
 	* p_URLMain           -> URL principal a la que el script hace las peticiones
 
-	* p_AeropuertoDestino -> Código del aeropuerto de destino
-	* p_AeropuertoOrigen  -> Código del aeropuerto de origen
+	* p_AeropuertoDestino -> CÃ³digo del aeropuerto de destino
+	* p_AeropuertoOrigen  -> CÃ³digo del aeropuerto de origen
 	* p_Destino           -> Ciudad de destino
 	* p_Origen            -> Ciudad de origen.
 	
@@ -15,9 +15,9 @@ Obtenidos a partir de hojas de datos
 	* p_Tarifa 			  -> Tipo de tarifa aplicada (basic, optima o excellence)
 	* p_TarifaId	      -> Identificador de dicha tarifa
 	
-	* p_TipoViaje		  -> Tipo de viaje a buscar (Sólo ida o ida y vuelta)
+	* p_TipoViaje		  -> Tipo de viaje a buscar (SÃ³lo ida o ida y vuelta)
 	
-Valores numéricos aleatorios
+Valores numÃ©ricos aleatorios
 	* p_p_DaysFuture
 	* p_OffsetVuelta
 
@@ -107,7 +107,7 @@ Action()
 
 	web_submit_data("search.aspx", 
 //		"Action={p_URLMain}/search.aspx", 
-	    "Action=https://tickets.vueling.com/XmlSearch.aspx",
+	    "Action={p_URLMain}/XmlSearch.aspx",
 		"Method=POST", 
 		"TargetFrame=",
 		"RecContentType=text/html",		
